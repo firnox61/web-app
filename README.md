@@ -1,16 +1,59 @@
-# React + Vite
+# Yapılacaklar Listem
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React ile geliştirilmiş basit bir yapılacaklar uygulaması. Görevler tarayıcının `localStorage` alanında saklanır; sayfa yenilendiğinde kaybolmaz.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Görev ekleme ve listeleme
+- Görevleri düzenleme ve silme
+- Görevleri tamamlandı olarak işaretleme
+- Kalan görev sayısını görüntüleme
+- Görevleri `localStorage` ile saklama
 
-## React Compiler
+## Kullanılan Teknolojiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Vite
+- Bootstrap 5
+- CSS
 
-## Expanding the ESLint configuration
+## Ekran Görüntüleri
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Yapılacaklar uygulaması](screenshots/todo-app.png)
+
+![Uygulama ekran görüntüsü 2](screenshots/todo1-app.png)
+
+![Uygulama ekran görüntüsü 3](screenshots/todo2-app.png)
+
+## Projeyi Çalıştırma
+
+Bilgisayarında Node.js kurulu olmalıdır.
+
+1. Proje klasöründe terminal aç.
+2. Paketleri kur:
+
+   ```bash
+   npm install
+   ```
+
+3. Geliştirme sunucusunu başlat:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Terminalde gösterilen yerel adresi tarayıcıda aç.
+
+## Üretim Sürümünü Oluşturma
+
+```bash
+npm run build
+```
+
+Oluşturulan dağıtım dosyaları `dist` klasörüne kaydedilir.
+
+## Bağlantılar
+
+- GitHub deposu: https://github.com/firnox61/web-app
+- Canlı uygulama: Netlify’da yayınlandıktan sonra eklenecek
