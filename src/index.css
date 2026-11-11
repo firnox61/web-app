@@ -1,0 +1,46 @@
+body {
+  min-height: 100vh;
+  background: #f3f6fb;
+  color: #1f2937;
+}
+
+main.container {
+  margin-top: 3rem;
+  background: #ffffff;
+  border: 1px solid #e8edf5;
+  border-radius: 20px;
+  box-shadow: 0 16px 40px rgba(31, 41, 55, 0.08);
+}
+
+h1 {
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.list-group {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.list-group-item {
+  min-height: 64px;
+  border-color: #e8edf5;
+}
+
+.list-group-item:hover {
+  background: #fafbfe;
+}
+
+.form-control {
+  border-color: #dbe2ea;
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.12);
+}
+
+.btn {
+  border-radius: 10px;
+}
