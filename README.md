@@ -56,4 +56,4 @@ Oluşturulan dağıtım dosyaları `dist` klasörüne kaydedilir.
 ## Bağlantılar
 
 - GitHub deposu: https://github.com/firnox61/web-app
-- Canlı uygulama: Netlify’da yayınlandıktan sonra eklenecek
+- Canlı uygulama: https://web-app-to.netlify.app/
